@@ -11,6 +11,7 @@
 		2B2CCB542AA3538600772A32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CCB532AA3538600772A32 /* ContentView.swift */; };
 		2B2CCB562AA3538700772A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2CCB552AA3538700772A32 /* Assets.xcassets */; };
 		2B2CCB5A2AA3538700772A32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2CCB592AA3538700772A32 /* Preview Assets.xcassets */; };
+		2B2CCB612AA3559F00772A32 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CCB602AA3559F00772A32 /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2B2CCB552AA3538700772A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B2CCB572AA3538700772A32 /* music_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = music_swift.entitlements; sourceTree = "<group>"; };
 		2B2CCB592AA3538700772A32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B2CCB602AA3559F00772A32 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		2B2CCB452AA3538600772A32 = {
 			isa = PBXGroup;
 			children = (
+				2B2CCB512AA3538600772A32 /* music_swiftApp.swift */,
 				2B2CCB502AA3538600772A32 /* music-swift */,
 				2B2CCB4F2AA3538600772A32 /* Products */,
 			);
@@ -52,7 +55,7 @@
 		2B2CCB502AA3538600772A32 /* music-swift */ = {
 			isa = PBXGroup;
 			children = (
-				2B2CCB512AA3538600772A32 /* music_swiftApp.swift */,
+				2B2CCB602AA3559F00772A32 /* SoundPlayer.swift */,
 				2B2CCB532AA3538600772A32 /* ContentView.swift */,
 				2B2CCB552AA3538700772A32 /* Assets.xcassets */,
 				2B2CCB572AA3538700772A32 /* music_swift.entitlements */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B2CCB542AA3538600772A32 /* ContentView.swift in Sources */,
+				2B2CCB612AA3559F00772A32 /* SoundPlayer.swift in Sources */,
 				2B2CCB522AA3538600772A32 /* music_swiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
